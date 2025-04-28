@@ -1,11 +1,771 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="/main.css">
+    <!-- css link End -->
+
+    <!-- font-awesome -->
+   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- font-awesome end -->
+
     <title>Document</title>
 </head>
+
 <body>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit esse vitae rerum fuga libero aut recusandae, corrupti architecto totam a doloribus in eius vel inventore eos similique ab reprehenderit quod.</p>
+
+  <header>
+    <nav class="nav-container">
+        <div class="logo">
+         
+         <img src="/HTML/assets/img/logo-design-confrom-01-1.png" alt="">
+        </div>
+
+        <!-- Desktop Menu with Two Buttons -->
+        <div class="desktop-menu">
+            <a href="#">Home</a>
+            <a href="#Service">Service</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#">My Skills</a>
+            <a href="#">Testimonials</a>
+            <a href="#Blog">Blog</a>
+            <a href="#contact">Contacts</a>
+            <div class="btn-group">
+                <button class="talk-btn">Let’s Talk</button>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn">☰</button>
+    </nav>
+
+    <!-- Mobile Menu with Single Button -->
+    <div class="mobile-menu">
+        <a href="#">Home</a>
+        <a href="#Service">Service</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#">My Skills</a>
+        <a href="#">Testimonials</a>
+        <a href="#Blog">Blog</a>
+        <a href="#contact">Contacts</a>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+</header>
+
+    <!-- hero Section -->
+    <section class="heroSection">
+        <div class="heroSectionEllipse">
+            <img src="/HTML/assets/img/Ellipse-465.png" alt="">
+        </div>
+        <div class="heroSectionText">
+            <button class="heroSectionBtn">Transforming Ideas</button>
+            <h2>Hi, I'm Oliver Smith<span> a Freelancer.</span> </h2>
+            <p class="heroSectionTextP">Elevate your business with cutting-edge freelance services. I bring fresh ideas,
+                adaptability, and a commitment to excellence.</p>
+            <div class="heroSectionTextBtn">
+                <button class="heroSectionTextBtn1">Download My CV</button>
+                <button class="heroSectionTextBtn2">View My Profile</button>
+            </div>
+        </div>
+
+        <div class="heroSectionImg">
+            <img src="/HTML/assets/img/image-24.png"
+                alt="">
+        </div>
+    </section>
+
+
+    <!-- hero Section end -->
+
+    <div class="companySection">
+        <div class="logoSlider">
+            <div class="logoTrack">
+                <!-- ====Repeat logos to make it loop smoothly==== -->
+                <img src="/HTML/assets/img/Company-logo.png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(1).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(2).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(3).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(6).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(1).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(7).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(8).png" alt="" >
+
+                <!-- Duplicate for seamless loop -->
+
+                <img src="/HTML/assets/img/Company-logo.png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(1).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(2).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(3).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(6).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(1).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(7).png" alt="" >
+                <img src="/HTML/assets/img/Company-logo-(8).png" alt="" >
+            </div>
+        </div>
+      </div>
+    <!--======================= About section ====================== -->
+    <section class="aboutSection">
+        <div class="aboutTop">
+            <div class="about-video-container">
+                <video src="/HTML/assets/img/vedio3.mp4" autoplay muted loop></video>
+            </div>
+            <div class="about-section">
+
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Freelancers are known for their flexibility in work hours and location.</p>
+                    <span>They are responsible for all aspects of their business, from finding clients and managing
+                        projects to handling administrative tasks
+                    </span>
+                </div>
+            </div>
+
+            <div class="achievement-box">
+                <h2>Achievement</h2>
+
+                <div class="item">
+                    <p class="number">1050<span>+</span></p>
+                    <p class="label">Happy Client</p>
+                </div>
+
+                <div class="item">
+                    <p class="number">950<span>+</span></p>
+                    <p class="label">Successful Projects</p>
+                </div>
+
+                <div class="item">
+                    <p class="number">750<span>+</span></p>
+                    <p class="label">Complete Project</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="aboutBottom">
+            <div class="about-container-bottom">
+                <h2>Experiance</h2>
+                <div class="about-container-name-bottom">
+                    <p>2020-present</p>
+                    <h4>Sr. Developer</h4>
+                    <p>Google.com</p>
+                </div>
+                <div class="about-container-names-bottom">
+                    <p>2014-2020</p>
+                    <h4>Chiefs of Surgery</h4>
+                    <p>Microsoft.com</p>
+                </div>
+
+            </div>
+
+            <div class="about-section-bottom">
+
+                <div class="about-text-bottom">
+                    <h2>Education</h2>
+                    <div class="about-text-mba-bottom">
+                        <p>2013-2014</p>
+                        <h4>MBA in (Management)</h4>
+                        <p>London Business School
+                        </p>
+                    </div>
+
+                    <div class="about-text-bba-bottom">
+                        <p>2009-2013</p>
+                        <h4>BBA in (Management)</h4>
+                        <p>London Business School
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="achievement-box-bottom">
+                <h2>Follow me</h2>
+                <div class="follow-icon">
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-youtube"></i></a>
+                    <a href=""> <i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- ================Services scetion =============== -->
+
+    <section id="Service" class="mainServicesSection">
+        <div class="service-contatent">
+            <span class="box">
+                <span class="text">My Specializations Services</span>
+            </span>
+
+            <h2>What I Do</h2>
+            <p>Develop comprehensive content strategies tailored to
+                your unique goals <br>d and target audience, ensuring that
+                every piece of content.</p>
+        </div>
+
+
+
+        <div class="container">
+            <div class="topCard">
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/cammera.png" alt=""></div>
+                    <h3>General Consultation</h3>
+                    <p>A comprehensive assessment of health, discussing symptoms and concerns to guide.</p>
+                    <div class="arrow">→</div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/service-1.png" alt=""></div>
+                    <h3>Mobile App Design</h3>
+                    <p>React encourages a declarative programming style, where developers describe the.</p>
+                    <div class="arrow">→</div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/_x31_.png" alt=""></div>
+                    <h3>Accessibility Design</h3>
+                    <p>It builds on top of standard HTML, CSS, and JavaScript and provides a declarative,
+                        component-based.</p>
+                    <div class="arrow">→</div>
+                </div>
+            </div>
+
+            <div class="bottomCard">
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/Frame.png" alt=""></div>
+                    <h3>Website Design</h3>
+                    <p>Our online logo maker lets you generate designs perfectly suited to your business from a.</p>
+                    <div class="arrow">→</div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/Vector-(4).png" alt=""></div>
+                    <h3>User Experience Audit</h3>
+                    <p>Figma is the leading collaborative design tool for building meaningful products. Seamlessly.</p>
+                    <div class="arrow">→</div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><img src="/HTML/assets/img/smart_light_bulb.png" alt=""></div>
+                    <h3>Interactive Prototypes</h3>
+                    <p>Try it free, no obligation! Millions of customers love our logo maker. Premium logo designs
+                        created.</p>
+                    <div class="arrow">→</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================Services scetion end=============== -->
+
+
+
+    <!-- ============= protfolio section start =================== -->
+    <section id="Portfolio" class="protfolio">
+        <h2>All Projects</h2>
+        <div class="filter">
+            <button>Wed Design</button>
+            <button>Wed Development</button>
+            <button>UI/UX Design</button>
+            <button>MERN Stack</button>
+        </div>
+
+
+
+        <!--  -->
+        <div class="protfolio-container">
+            <div class="protfolio-left">
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4679.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4682.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+
+            </div>
+            <div class="protfolio-midil">
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4682.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4681.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+
+            </div>
+            <div class="protfolio-right">
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4679.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+                <div class="ai-card">
+                    <div class="card-image">
+                        <img src="/HTML/assets/img/Rectangle-4682.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Emergency Medical Care</h3>
+                        <p>HTML</p>
+                    </div>
+                    <a href="#" class="card-link">↗</a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ============= protfolio section end =================== -->
+
+
+
+    <!-- ========= my price section ====================== -->
+
+   <div class="my-price-section">
+    <div class="service-contatent">
+        <span class="box">
+            <span class="text">My Awesome Pricing</span>
+        </span>
+
+        <h2>My Pricing</h2>
+        <p>As a frontend specialist, I excel in building captivating user interfaces that not only<br> look great but
+            also provide seamless navigation.</p>
+    </div>
+
+    <div class="price-card-section">
+        <div class="curch-price">
+            <h2>Basic</h2>
+            <p>Offering competitive pricing for <br> unparalleled service.</p>
+            <h1>$20.00</h1>
+    
+            <button>ORDER NOW   <i class="fa-solid fa-arrow-right"></i></button>
+    
+            <div class="curch-name">
+    
+                <span><i class="fa-solid fa-check"></i>  &nbsp; UI/UX Design Consultation</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After Completion</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  High Resolution Videos</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  24/7 Dedicated Support</span><br>
+                <span><i class="fa-solid fa-check"></i> &nbsp;  Unlimited Access Courses</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span>
+               
+    
+            </div>
+        </div>
+        <div class="curch-price">
+            <h2>Standard</h2>
+            <p>Offering competitive pricing for <br> unparalleled service.</p>
+            <h1>$10.00</h1>
+    
+            <button>ORDER NOW   <i class="fa-solid fa-arrow-right"></i></button>
+    
+            <div class="curch-name">
+    
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i> &nbsp;   Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span>
+    
+    
+            </div>
+        </div>
+        <div class="curch-price">
+            <h2>Premium</h2>
+            <p>Offering competitive pricing for <br> unparalleled service.</p>
+            <h1>$40.00</h1>
+    
+            <button>ORDER NOW   <i class="fa-solid fa-arrow-right"></i></button>
+    
+            <div class="curch-name">
+    
+                <span><i class="fa-solid fa-check"></i> &nbsp; Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i> &nbsp;   Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i>  &nbsp;  Certificate After 
+                     Completionp</span><br>
+                <span><i class="fa-solid fa-check"></i> &nbsp;   Certificate After 
+                     Completionp</span>
+    
+    
+            </div>
+        </div>
+    </div>
+
+   </div>
+
+
+
+   <!-- ================  Clients Feedback ====================  -->
+   <div class="service-contatent">
+    <span class="box">
+        <span class="text">Clients Feedback</span>
+    </span>
+
+    <h2>Awesome Clients</h2>
+    <p>As a frontend specialist, I excel in building captivating user 
+        interfaces that not only<br> look great but
+        also provide seamless navigation.</p>
+ </div>
+
+
+ <div class="testimonial-container">
+    
+    <!-- Card 1 -->
+    <div class="testimonial-card">
+      <div class="stars">5.0 ★★★★★</div>
+      <p>“Working with [Your Name] on our website's UI/UX design was a game-changer. Their expertise brought fresh perspectives and innovative solutions that not only made our platform.”</p>
+      <img class="profile-img" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Irin Pervin">
+      <div class="x">
+      <div class="name">Mrs. Irin Pervin</div>
+      <div class="role">UI/UX Designer</div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="testimonial-card">
+      <div class="stars">5.0 ★★★★★</div>
+      <p>I hope this message finds you well. I wanted to take a moment to provide some feedback on the recent project we collaborated on. Overall, I am extremely pleased with the outcome.</p>
+      <img class="profile-img" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jogn Due Sr">
+      <div class="x">
+        <div class="name">Mrs. Irin Pervin</div>
+        <div class="role">UI/UX Designer</div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+  
+    <div class="testimonial-card">
+      <div class="stars">5.0 ★★★★★</div>
+      <p>Your team demonstrated a high level of professionalism and expertise in their respective roles. From project management to technical execution, everyone involved exhibited outcome.</p>
+      <img class="profile-img" src="https://randomuser.me/api/portraits/women/47.jpg" alt="Sr Erina Jahan">
+      <div class="x">
+        <div class="name">Mrs. Irin Pervin</div>
+        <div class="role">UI/UX Designer</div>
+        </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">5.0 ★★★★★</div>
+      <p>Your team demonstrated a high level of professionalism and expertise in their respective roles. From project management to technical execution, everyone involved exhibited outcome.</p>
+      <img class="profile-img" src="https://randomuser.me/api/portraits/women/47.jpg" alt="Sr Erina Jahan">
+      <div class="x">
+        <div class="name">Mrs. Irin Pervin</div>
+        <div class="role">UI/UX Designer</div>
+        </div>
+    </div>
+
+  </div>
+
+
+<!-- -==========vedio section ================ -->
+
+  <div class="video-section">
+   
+    <div class="video-container">
+      <iframe 
+        src="/HTML/assets/img/vedio2.mp4"  
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+
+
+<!-- ================ Clients Feedback section =============== -->
+<div  class="service-contatent">
+    <span class="box">
+        <span class="text">Clients Feedback</span>
+    </span>
+
+    <h2>Recent Blog</h2>
+    <p>With a strong foundation in frontend development and a keen eye for design, I specialize <br> in creating interactive and responsive web.</p>
+</div>
+
+
+<div id="Blog" class="main-blog-scetion">
+    
+  <div class="card-blog">
+    <div class="image-placeholder-blog">
+      <img src="/HTML/assets/img/bg.png" alt="Blog Image" class="blog-image">
+  
+      <div class="date-badge">
+        <div class="day">03</div>
+        <div class="month">Dec<br>2023</div>
+      </div>
+    </div>
+  
+    <div class="card-content-blog">
+      <div class="category">Development</div>
+      <div class="title"><p>One of the World Largest Passive House Buildings</p></div>
+      <a href="#" class="read-more">Read Details →</a>
+    </div>
+  </div>
+
+  <div class="card-blog">
+    <div class="image-placeholder-blog">
+      <img src="/HTML/assets/img/Rectangle-4679.png" alt="Blog Image" class="blog-image">
+  
+      <div class="date-badge">
+        <div class="day">03</div>
+        <div class="month">Dec<br>2023</div>
+      </div>
+    </div>
+  
+    <div class="card-content-blog">
+      <div class="category">App Developer</div>
+      <div class="title"><p>App Developer World Largest design
+        House Buildings</p></div>
+      <a href="#" class="read-more">Read Details →</a>
+    </div>
+  </div>
+
+  <div class="card-blog">
+    <div class="image-placeholder-blog">
+      <img src="/HTML/assets/img/Rectangle-4682.png" alt="Blog Image" class="blog-image">
+  
+      <div class="date-badge">
+        <div class="day">03</div>
+        <div class="month">Dec<br>2023</div>
+      </div>
+    </div>
+  
+    <div class="card-content-blog">
+      <div class="category">Graphic Design</div>
+      <div class="title"><p>Graphic One of the World Largest Passive House Buildings</p></div>
+      <a href="#" class="read-more">Read Details →</a>
+    </div>
+  </div>
+
+</div>
+ 
+
+
+
+
+
+<!-- =============contact scetion ================ -->
+
+<div class="service-contatent">
+    <span class="box">
+        <span class="text">My Contact Information</span>
+    </span>
+
+    <h2>Contact With Me</h2>
+    
+ </div>
+
+
+
+<div id="contact" class="contact-container">
+
+    <!-- Form Box -->
+    <div class="form-box">
+      <h2>Send me a message</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Your Name">
+          <input type="text" placeholder="Phone Number">
+        </div>
+        <input type="email" placeholder="Email Address" style="margin-bottom: 15px;">
+        <input type="text" placeholder="Your Subject" style="margin-bottom: 15px;">
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn">Send Message <i class="fas fa-arrow-right"></i></button>
+      </form>
+    </div>
+
+    <!-- Info Box -->
+    <div class="info-box">
+
+      <div class="info-section">
+        <i class="fas fa-headset"></i>
+        <h3>Get Support</h3>
+        <p>If you want to communicate with live support, Skype online contact me.</p>
+        <span>Phone Number: 0129992224</span><br>
+        <span>Phone Number: 0195656664</span>
+      </div>
+
+      <div class="info-section">
+        <i class="fas fa-envelope"></i>
+        <h3>Communication With Mail</h3>
+        <p>Please submit your email in my email and please as soon as possible.</p>
+        <span>Email Address 01: admin@gmail.com</span><br>
+        <span>Email Address 02: personal@gmail.com</span>
+      </div>
+
+      <div class="info-section">
+        <i class="fas fa-comments"></i>
+        <h3>Want to Chat Now?</h3>
+        <p>Chat with me to find more answers or find out more and more informative.</p>
+        <button class="btn">Open Chat With Me <i class="fas fa-arrow-right"></i></button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+<!-- ================= contact section end ===================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Column 1: Logo and Contact -->
+      <div class="footer-col">
+        <div class="logo">
+          <img src="/HTML/assets/img/logo-design-confrom-01-1.png" alt="">
+        </div>
+        <p >Create something great</p>
+        <p>irin@example.com</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Product -->
+      <div class="footer-col">
+        <h3>Product</h3>
+        <ul>
+          <li><a href="#" style="color:#00ffff;">About me</a></li>
+          <li><a href="#">Database</a></li>
+          <li><a href="#">Photoshop</a></li>
+          <li><a href="#">Figma Design</a></li>
+          <li><a href="#">Adobe XD</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Resources -->
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Support Center</a></li>
+          <li><a href="#">Terms of My Service</a></li>
+          <li><a href="#">Privacy and Policy</a></li>
+          <li><a href="#">React Router</a></li>
+          <li><a href="#">Photoshop Design</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Developers -->
+      <div class="footer-col">
+        <h3>Developers</h3>
+        <ul>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Support Policy</a></li>
+          <li><a href="#">Adobe XD</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2024 All Rights Reserved by SoftCode Loop 
+    </div>
+  </footer>
+
+
+<!--  js link -->
+<script src="/HTML/assets/js/index.js"></script>
+
 </body>
+
 </html>
